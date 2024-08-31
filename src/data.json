@@ -1,0 +1,35 @@
+[
+  { "model": "Personne", "data": { "nom": "John Doe" } },
+  {
+    "model": "Patrimoine",
+    "data": {
+      "possesseur": { "nom": "John Doe" },
+      "possessions": [
+        {
+          "possesseur": { "nom": "John Doe" },
+          "libelle": "Télévision 4K",
+          "valeur": 1500000,
+          "dateDebut": "2023-01-10T00:00:00.000Z",
+          "dateFin": null,
+          "tauxAmortissement": 8
+        },
+        {
+          "possesseur": { "nom": "John Doe" },
+          "libelle": "Table en bois",
+          "valeur": 300000,
+          "dateDebut": "2021-06-15T00:00:00.000Z",
+          "dateFin": null,
+          "tauxAmortissement": 15
+        },
+        {
+          "possesseur": { "nom": "John Doe" },
+          "libelle": "Lampe de bureau",
+          "valeur": 50000,
+          "dateDebut": "2022-05-20T00:00:00.000Z",
+          "dateFin": null,
+          "tauxAmortissement": 20
+        }
+      ]
+    }
+  }
+]
